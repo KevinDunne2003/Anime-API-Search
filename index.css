@@ -1,0 +1,95 @@
+	body {
+		margin: 3%
+	}
+
+	li {
+		display: block;
+	}
+
+	.container p {
+		font-size: 140%;
+		margin: 30px 30px 80px 30px
+	}
+
+	.container h1 {
+		margin: 50px 30px 20px 30px
+	}
+
+	.container-fluid {
+		border-style: groove;
+		color: rgb(240, 234, 234);
+		/*white*/
+		text-align: center;
+
+
+		width: 80%;
+		background-size: 100% 100%;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-top: 20%;
+		display: flex;
+		justify-content: center;
+		margin: 5%;
+		text-shadow: 2px 2px rgb(0, 0, 0);
+		/*black*/
+		border: 5px dashed #00FFFF;
+		border-radius: 50%;
+		object-fit: cover;
+		max-width: 100%;
+	}
+
+	footer {
+		color: rgb(0, 0, 0);
+		/*black*/
+		text-align: center;
+	}
+
+
+	.Olympia p {
+		padding: 2%
+	}
+
+	* {
+		box-sizing: border-box;
+	}
+
+
+
+	.container-fluid {
+		position: relative;
+		text-align: center;
+		color: white;
+
+	}
+
+	.centered {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	#TopImage {
+		padding: 5%
+	}
+	footer {
+		padding-top: 10%;
+	}
+
+	#Title {
+		text-align: center;
+		padding-bottom: 10%;
+		text-transform: capitalize;
+	}
+	
+
+	input[type=text] {
+		width: 30%;
+		-webkit-transition: width 0.15s ease-in-out;
+		transition: width 0.15s ease-in-out;
+	}
+
+	/* When the input field gets focus,
+		   change its width to 100% */
+	input[type=text]:focus {
+		width: 70%;
+	}
